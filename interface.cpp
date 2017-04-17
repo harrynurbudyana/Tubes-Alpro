@@ -10,7 +10,26 @@ void inter_login()
 	cout << "======================================================================" << "\n";
 }
 
+void usr_menu()
+{
+	cout << "======================================================================" << "\n";
+	cout << "============================  Menu Pengguna  =========================" << "\n";
+	cout << " 1. Pencarian Pengisi Kajian " << "\n";
+	cout << " 2. Pencarian Berdasarkan Tanggal " << "\n";
+	cout << " 3. Pencarian Berdasarkan Waktu " << "\n";
+	cout << " 4. Pengurutan Berdasarkan Tanggal dan Waktu " << "\n";
+}
+void adm_menu()
+{
+	cout << "======================================================================" << "\n";
+	cout << "========================  Menu Administrator  ========================" << "\n";
+	cout << " 1. Input Kajian, Waktu dan Wilayah " << "\n";
+	cout << " 2. Hapus Jadwal Kajian " << "\n";
+	cout << " 3. Pengkodean Nama Pengisi " << "\n";
+}
 int main()
 {
-	inter_login();
+//	inter_login();
+	usr_menu();
+	adm_menu();
 }
