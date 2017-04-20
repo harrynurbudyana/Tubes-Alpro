@@ -27,9 +27,16 @@ void adm_menu()
 	cout << " 2. Hapus Jadwal Kajian " << "\n";
 	cout << " 3. Pengkodean Nama Pengisi " << "\n";
 }
+void int_date()
+{
+	cout << "======================================================================" << "\n";
+	cout << "  Tanggal   " << "\t" << "   Nama Pengisi  " << "\t" << "  Nama Tempat " <<"\t"<< "  Daerah " << "\n";
+	cout << "======================================================================" << "\n";
+}
 int main()
 {
 //	inter_login();
-	usr_menu();
-	adm_menu();
+//	usr_menu();
+//	adm_menu();
+	int_date();
 }
